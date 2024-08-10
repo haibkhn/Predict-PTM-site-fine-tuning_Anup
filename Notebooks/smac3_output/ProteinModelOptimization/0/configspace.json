@@ -1,0 +1,97 @@
+{
+    "name": null,
+    "hyperparameters": [
+        {
+            "type": "categorical",
+            "name": "accum",
+            "choices": [
+                2,
+                4,
+                8
+            ],
+            "weights": null,
+            "default_value": 2,
+            "meta": null
+        },
+        {
+            "type": "categorical",
+            "name": "batch",
+            "choices": [
+                1,
+                2,
+                4,
+                8
+            ],
+            "weights": null,
+            "default_value": 1,
+            "meta": null
+        },
+        {
+            "type": "uniform_float",
+            "name": "dropout_rate",
+            "lower": 0.1,
+            "upper": 0.9,
+            "default_value": 0.5,
+            "log": false,
+            "meta": null
+        },
+        {
+            "type": "uniform_float",
+            "name": "lora_init_scale",
+            "lower": 0.0001,
+            "upper": 0.1,
+            "default_value": 0.0031622776602,
+            "log": true,
+            "meta": null
+        },
+        {
+            "type": "uniform_int",
+            "name": "lora_rank",
+            "lower": 4,
+            "upper": 32,
+            "default_value": 18,
+            "log": false,
+            "meta": null
+        },
+        {
+            "type": "uniform_int",
+            "name": "lora_scaling_rank",
+            "lower": 1,
+            "upper": 4,
+            "default_value": 2,
+            "log": false,
+            "meta": null
+        },
+        {
+            "type": "uniform_float",
+            "name": "lr",
+            "lower": 1e-05,
+            "upper": 0.01,
+            "default_value": 0.000316227766,
+            "log": true,
+            "meta": null
+        },
+        {
+            "type": "uniform_float",
+            "name": "warmup_pct",
+            "lower": 0.01,
+            "upper": 0.3,
+            "default_value": 0.155,
+            "log": false,
+            "meta": null
+        },
+        {
+            "type": "uniform_float",
+            "name": "weight_decay",
+            "lower": 1e-05,
+            "upper": 0.001,
+            "default_value": 0.0001,
+            "log": true,
+            "meta": null
+        }
+    ],
+    "conditions": [],
+    "forbiddens": [],
+    "python_module_version": "1.2.0",
+    "format_version": 0.4
+}
