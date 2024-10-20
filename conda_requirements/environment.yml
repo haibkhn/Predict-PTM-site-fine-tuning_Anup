@@ -340,4 +340,4 @@ dependencies:
       - zipp==3.19.0
       - zipstream-new==1.1.8
       - zstandard==0.22.0
-prefix: /scratch/users/anup/miniconda3/envs/finetune-dephos
+# prefix: /scratch/users/anup/miniconda3/envs/finetune-dephos
